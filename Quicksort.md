@@ -11,7 +11,8 @@
 　　当左指针和右指针相遇的时候表示的时候，说明左右标准已经建立完毕，递归实现左半部分和右半部分即可。<br>
   ![示例图片](https://github.com/Anaethesia/CLRSconcept/blob/master/20170308204345872.png)<br>
 * 代码演示<br>
-    <pre>#include <iostream>
+```
+#include <iostream>
 using namespace std;
 void quickSort(int a[],int beg,int end){
    //partition非递归实现，官方版
@@ -40,4 +41,4 @@ int main()
     }
     cout<<endl;
     return 0;}
-   </pre>
+```
