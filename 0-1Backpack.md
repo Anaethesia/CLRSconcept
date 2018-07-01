@@ -12,11 +12,6 @@
    #include <iostream>
    #include <cstdio>
    #include <cstdlib>
-```
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
- 
 using namespace std;
  
 const int MAXN = 100;
