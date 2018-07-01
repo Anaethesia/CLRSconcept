@@ -9,7 +9,7 @@
   方法：左右指针法<br>
 　　在一段排序内我们设置一个标准，从左进行遍历，找到一个比它大的就停下，从右边遍历，找到一个比它小的就停下，将两个值进行交换就可以达到左边数比标准小，右边数比标准大的目的。<br>
 　　当左指针和右指针相遇的时候表示的时候，说明左右标准已经建立完毕，递归实现左半部分和右半部分即可。<br>
-  ![示例图片](https://github.com/Anaethesia/CLRSconcept/blob/master/20170308204345872.png)<br>
+  ![示例图片](https://github.com/Anaethesia/CLRSconcept/blob/master/Screenshots/20170308204345872.png)<br>
 * 代码演示<br>
 ```
 #include <iostream>
